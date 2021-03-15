@@ -43,7 +43,7 @@
                 <div class="col">
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">ข้อมูลเพิ่มเติม</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">หน้าหลัก</a></li>
                             <?php 
                                 if ($row["group_type"] == "นักศึกษา"){ 
                                     echo '<li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">ผลการเรียน</a></li>';
