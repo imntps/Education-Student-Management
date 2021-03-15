@@ -140,7 +140,7 @@
                                                         echo    '<tr><form action="server.php" method="post">
                                                                     <td><input name="std_id" value="'.$allStd_row['std_id'].'" readonly></td>
                                                                     <td>'.$allStd_selct_name_row['firstname']. ' ' . $allStd_selct_name_row['lastname'].'</td>
-                                                                    <td><input type="number" name="std_point" value="'.$allStd_row['point'].'"><input name="subject" value="'.$x.'" hidden></td>
+                                                                    <td><input type="number" name="std_point" min="0" max="100" value="'.$allStd_row['point'].'"><input name="subject" value="'.$x.'" hidden></td>
                                                                     <td><input type="submit" name="updatepoint_submit" value="update"></td>
                                                                     </form>
                                                                 </tr>';
